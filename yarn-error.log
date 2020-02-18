@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\roner.ortega\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add post-css
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;C:\Users\roner.ortega\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\roner.ortega\AppData\Local\Programs\Python\Python37-32\;C:\Users\roner.ortega\AppData\Local\Microsoft\WindowsApps;C:\Users\roner.ortega\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roner.ortega\AppData\Roaming\npm;C:\Users\roner.ortega\AppData\Local\Programs\Git\cmd;C:\Users\roner.ortega\AppData\Local\Android\Sdk;C:\Users\roner.ortega\AppData\Local\Android\Sdk\tools\bin;C:\Users\roner.ortega\AppData\Local\Android\Sdk\platform-tools;C:\Users\roner.ortega\AppData\Local\Android\Sdk\emulator;C:\Users\roner.ortega\gradle-5.6.2\bin;C:\Program Files\heroku\bin;C:\xampp\php;C:\Users\roner.ortega\AppData\Roaming\Composer\vendor\bin;C:\Users\roner.ortega\AppData\Local\.meteor;C:\Users\roner.ortega\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/post-css: Not found
+      at Request.params.callback [as _callback] (C:\Users\roner.ortega\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66926:18)
+      at Request.self.callback (C:\Users\roner.ortega\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140564:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (C:\Users\roner.ortega\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141536:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (C:\Users\roner.ortega\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141458:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "Exmaples",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

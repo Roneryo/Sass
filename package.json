@@ -1,0 +1,11 @@
+{
+  "name": "Exmaples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "sass": "^1.25.0"
+  }
+}
