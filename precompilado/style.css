@@ -1,17 +1,32 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import 'partials/buttons';
- *   |         ^^^^^^^^^^^^^^^^^^
- *   '
- *   sass\main.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'partials/buttons';\d\a   \2502          ^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\main.scss 1:9  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
 }
+
+.buttons {
+  background-color: #333;
+}
+
+.stella {
+  visibility: hidden;
+}
+.stella .head {
+  position: fixed;
+  margin-left: 40px;
+}
+.stella .eye {
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 67px;
+}
+.stella .mouth {
+  position: fixed;
+  margin-top: 90px;
+  margin-left: 74px;
+  display: none;
+}
+.stella .body {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

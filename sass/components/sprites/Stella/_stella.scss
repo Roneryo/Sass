@@ -1,0 +1,23 @@
+//Styles of Stella
+
+.stella{
+    visibility: hidden;
+    .head{
+        position: fixed;
+        margin-left:40px;
+    }
+    .eye{
+        position: fixed;
+        margin-top:70px;
+        margin-left:67px;
+    }
+    .mouth{
+        position:fixed;
+        margin-top:90px;
+        margin-left:74px;
+        display:none;
+    }
+    .body{
+        margin-top: 50px;
+    }
+}

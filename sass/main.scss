@@ -1,5 +1,7 @@
-@import 'partials/buttons';
-*{
-    padding:0;
-    margin:0;
+@import 'base/reset';
+@import 'components/buttons';
+@import 'components/sprites/Anna/anna';
+@import 'components/sprites/Stella/stella';
+:picture-in-picture{
+    color:black;
 }
