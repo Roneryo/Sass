@@ -3,30 +3,24 @@
   padding: 0;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .buttons {
   background-color: #333;
 }
 
-.stella {
-  visibility: hidden;
+:picture-in-picture {
+  color: black;
 }
-.stella .head {
-  position: fixed;
-  margin-left: 40px;
-}
-.stella .eye {
-  position: fixed;
-  margin-top: 70px;
-  margin-left: 67px;
-}
-.stella .mouth {
-  position: fixed;
-  margin-top: 90px;
-  margin-left: 74px;
-  display: none;
-}
-.stella .body {
-  margin-top: 50px;
-}
-
 /*# sourceMappingURL=style.css.map */

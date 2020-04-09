@@ -1,7 +1,9 @@
 @import 'base/reset';
+@import 'components/flex';
+@import 'components/grids';
 @import 'components/buttons';
-@import 'components/sprites/Anna/anna';
-@import 'components/sprites/Stella/stella';
+//@import 'components/sprites/Anna/anna';
+//@import 'components/sprites/Stella/stella';
 :picture-in-picture{
     color:black;
 }

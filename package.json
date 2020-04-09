@@ -2,10 +2,21 @@
   "name": "Exmaples",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "watch-sass":"yarn sass ./sass/main.scss ./precompilado/style.css --watch",
+    "autoprefixer":"yarn postcss ./precompilado/style.css -o ./public/css/style.css --use autoprefixer --watch",
+    "serve":"yarn nodemon index.js -e js,pug,css"
+  },
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.7.4",
+    "express": "^4.17.1",
     "postcss-cli": "^7.1.0",
+    "pug": "^2.0.4",
     "sass": "^1.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "reload": "^3.0.4"
   }
 }

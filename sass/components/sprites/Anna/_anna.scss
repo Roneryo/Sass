@@ -1,6 +1,22 @@
 ////Styles of Anna sprite
 .Anna{
-    .boca{
+    display: flex;
+    justify-self: center;
+    img{
+        image-rendering: pixelated;
+    }
+    .mouth{
+        position: fixed;
+        margin-top:92px;
+        margin-left:53px;
+
+    }
+    .eye{
+        position: fixed;    
+        margin-top: 60px;
+        margin-left: 35px;
+    }
+    .body{
 
     }
 }
