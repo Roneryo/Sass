@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "postcss-cli": "^7.1.0",
     "pug": "^2.0.4",
     "sass": "^1.25.0"
